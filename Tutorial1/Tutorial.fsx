@@ -77,8 +77,7 @@ module BasicFunctions =
     // When needed, annotate the type of a parameter name using '(argument:type)'
     let func2 (x:int) = 2*x*x - x/5 + 3
 
-    let result2 = func2 (7 + 4)
-    printfn "The result of applying the 1st sample function to (7 + 4) is %d" result2
+    let result2 = func2 (7 + 4)   
 
     let func3 x = 
         if x < 100.0 then 
